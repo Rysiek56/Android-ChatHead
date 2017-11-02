@@ -15,7 +15,7 @@ startService(new Intent(Main.this, ChatHeadService.class));
 Show Message(see below pic 'Messager') :
 ```Java
 Intent it = new Intent(Main.this, ChatHeadService.class);
-it.putExtra(Utility.EXTRA_MSG, str);
+it.putExtra(Utils.EXTRA_MSG, str);
 startService(it);
 ```
 <br/>
